@@ -1,0 +1,25 @@
+# PROJE 2 SORU
+[16,21,11,8,12,22] -> Merge Sort
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+Big-O gösterimini yazınız.
+
+
+# PROJE 2 CEVAP
+[16,21,11,8,12,22]
+
+    ### devamli ikiye bolunur   
+    * [16,21,11] ve [8,12,22]
+    * [16,21] ve [11] VE [8,12] ve [22]
+
+    ### ikili gruplar siralanir
+    * [16,21] ve [11] VE [8,12] ve [22]
+
+    ### ikili gruplar kendi iclerinde birlikte siralanir
+    * [11,16,21] VE [8,12,22]
+
+    ### tum gruplar birlikte siralanir
+    * [8,11,12,16,21,22]
+
+## Big-O gosterimi 
+    *sonda kalan iki grubum zaten sirali oldugu icin yapmam gereken O(n) tek bir islem olacak her asamada, her seferinde grup ikiye bolunur bu yuzden 2^x = n yani logn = x. O halde time complexity = O (nlogn)*

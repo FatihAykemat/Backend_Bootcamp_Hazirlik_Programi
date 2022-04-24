@@ -1,0 +1,10 @@
+# PROJE 3 SORU
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur v
+
+
+# PROJE 3 CEVAP
+## [7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+
+    *root 7'dir root'un saginda sayi bulunmaz. sayilar bir ustteki root'u goz onunde bulundurarak solda kucuk, sagda buyuk olmak uzere siralanir. array sirasiz oldugu icin butun sayilar asil root'un solunda kalir. bu da worst case scenario'ya denk geliyor. time complexity O(n)*
